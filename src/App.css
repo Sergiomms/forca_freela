@@ -1,0 +1,101 @@
+body {
+  background-image: url("../src/assets/images/forca_fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  white-space: pre-line;
+}
+
+.title {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.word-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-display {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 810px;
+  white-space: pre-line;
+  padding-left: 100px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.wrong-letters {
+  margin-top: 20px;
+  color: red;
+  font-size: 2.5em;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000; /* Fundo sólido preto */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.popup p {
+  font-size: 1.2em;
+}
+
+.popup button {
+  margin-top: 10px;
+  background-color: #28a745;
+}
+
+.popup button:hover {
+  background-color: #218838;
+}
