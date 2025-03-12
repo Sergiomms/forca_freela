@@ -59,7 +59,7 @@ function App() {
       {gameCompleted && (
         <div className="popup">
           <p>Parabéns! Você completou o desafio!</p>
-          <p>{phrase}</p>
+          
           <button onClick={restartGame}>Reiniciar Jogo</button>
         </div>
       )}
